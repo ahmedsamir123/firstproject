@@ -1,0 +1,272 @@
+/* general style */
+.clear {
+    clear:both;
+}
+body {
+    margin:0;
+    padding:0;
+    height:2000px;
+}
+.container {
+    width:85%;
+    margin:auto;
+}
+/* header section */
+header {
+    width:100%;
+    height:400px;
+    background-color:#00BCBA ;
+}
+header .prism {
+    width:50%;
+    float:left;
+    margin-top: 120px;
+    border-right:1px solid darkgray;
+}
+header .prism h2 {
+    width:48%;
+    color:#fff;
+    text-transform: capitalize;
+    line-height: 1.6;
+    
+}
+header .prism h2 span:hover {
+    color:#777;
+    cursor: pointer;
+    
+}
+header .lorem {
+    width:45%;
+    float:right;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+header .lorem p {
+    color:darkgray;
+    font-family: "tahoma";
+    line-height: 1.8;
+}
+header .lorem button {
+    border:none;
+    background-color: #222;
+    color:#777;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 50px;
+    width:200px;
+    cursor: pointer;
+    text-transform:uppercase ;
+    outline: 0;
+    height:50px;
+}
+
+/* magna section */
+.magna {
+    width:100%;
+    height:430px;
+    border-bottom:2px solid #ddd;
+}
+.magna .learn {
+    width:50%;
+    float:left;
+    border-right:1px solid #ddd;
+    margin-top: 50px;
+    
+}
+.magna .learn h2 {
+    font-family: "tahoma";
+    color:#777;
+    text-transform:capitalize;
+}
+.magna .learn p {
+    line-height: 1.8;
+    font-family: "tahoma";
+    color:#888;
+}
+.magna .learn button {
+    cursor: pointer;
+    border:1px solid #ddd;
+    background-color: #fff;
+    border-radius:50px;
+    width:200px;
+    font-size: 20px;
+    height:50px;
+    color:#777;
+    text-transform: uppercase;
+    outline: 0;
+    margin-top:30px ;
+
+
+}
+.magna .learn button:hover {
+    background-color: #888;
+    color:#fff;
+}
+.magna .ipsum  {
+    width:45%;
+    float:right;
+    margin-left:1px;
+    margin-top: 50px;
+    visibility:hidden;
+    
+}
+.magna .ipsum p {
+    line-height: 2.1;
+    font-family: "tahoma";
+    color:#666;
+    font-size: 16px;
+}
+.magna .ipsum p i {
+    padding-right:15px;
+    color:#00BCBA;
+}
+/* pharetra section */
+
+.pharetra {
+    width:100%;
+    height:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+.pharetra .part img {
+    float:left;
+    width:40%;
+    opacity: 1;
+    height:350px;
+}
+.pharetra .part .he {
+    float:left;
+    width:40%;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.pharetra .part .he h2 {
+    color:#777;
+    font-family: "tahoma";
+    text-transform: capitalize;
+    
+}
+.pharetra .part .he p {
+    color:#888;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.pharetra .part {
+    margin-bottom: 70px;
+    height:350px;
+    background-color: #ddd;
+}
+.pharetra .part .he button {
+    cursor: pointer;
+    border:1px solid #ddd;
+    background-color: #fff;
+    border-radius:50px;
+    width:200px;
+    font-size: 20px;
+    height:50px;
+    color:#777;
+    text-transform: uppercase;
+    outline: 0;
+    margin-top:30px ;
+
+
+}
+.pharetra .part .he button:hover {
+    background-color: #888;
+    color:#fff;
+}
+.pharetra .part img:hover {
+    opacity: 0.7;
+}
+/* form section */
+.form .inputs {
+    width:50%;
+    border-right:1px solid #ddd;
+    margin-top: 50px;
+    float:left;
+}
+.form .inputs h2 {
+    font-size: 30px;
+    color:#00BCBA;
+    text-transform: capitalize;
+}
+.form .inputs p {
+    color:#888;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.form .inputs input {
+    height:35px;
+    padding-left: 5px;
+    border:1px solid #888;
+    outline:0;
+
+}
+.form .inputs textarea {
+    height:200px;
+    padding-left: 5px;
+    border:1px solid #888;
+    outline:0;
+    margin-top: 10px;
+
+}
+.form .inputs button {
+    cursor: pointer;
+    border:1px solid #ddd;
+    background-color: #fff;
+    border-radius:50px;
+    width:150px;
+    font-size: 16px;
+    height:50px;
+    color:#777;
+    text-transform: uppercase;
+    outline: 0;
+    margin-top:10px ;
+
+
+}
+.form .inputs button:hover {
+    background-color: #888;
+    color:#fff;
+}
+.form {
+    width:100%;
+    height:600px;
+    overflow:hidden;
+    border-bottom:1px solid #888;
+
+}
+.form .links {
+    width:40%;
+    float:left;
+    margin-left:20px;
+    margin-top: 80px;
+
+}
+.form .links p {
+    font-size: 18px;
+    color:#888;
+}
+.form .links p i {
+    margin-right:23px;
+    color:#00BCBA;
+}
+.form .links p i:hover {
+    color:#000;
+}
+/* footer section */
+footer {
+    width:100%;
+    height:150px;
+    border-top:1px solid #ddd;
+}
+footer p {
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+    color:#666;
+}
